@@ -1,0 +1,53 @@
+CONSTRAINT CHECK(ZipCode REGEXP 'fsdlkjfsdljfl')
+INDEX (Name_Last),
+INDEX (Name_Last, Name_First)
+CONSTRAINT CHECK (PlayingTimeMin <= 40), CONSTRAINT CHECK (PlayingTimeSec < 60)
+
+-------
+query on homepage adter getting all info and avg shit
+FROM TeamRoseter LEFT JOIN Statsitucs ON Statsticis.Player = TeamRoser.ID
+GROUP BY
+	teamroster.fname
+		   .lname
+order by 
+	teamroster.fname
+	teamroster.lname
+--------
+after creating short variables(usepreg_replace)
+
+if(!empty($lastName)){
+db = new mysql sfsdfsf
+if(mysqli_connect_error() == 0){
+if (empty($firsNmae) $firstname = null;
+
+$quert = "INSERT INTO TeamRoser SET
+		Name_first = ?,
+		Name_lat = ?,
+		...
+		Zip Code = ?";
+$stmt = $db->prepare($query);
+stmt->bind_param)('sssssss', then all seven shit);
+$stmt->execute();
+}
+}
+
+
+IDK
+SELECT
+	T.Name_First, S.Player, avg(S.Points as 'Average Points' FROM statistics as S, TeamRoster as T
+WHERE T.ID = S.Player GROUP BY S.player 
+
+------------------
+Cascade delete foreign key??????
+restrict set null?
+
+*pulldown shows error message if no name chosen
+build pulldown
+$stmt-data_seek(0);
+while($stmt->fetch()){
+  $player = new address($namefirst, $namelast)
+  echo "<option value=\"$Name_ID\">
+-----------------
+midterm
+types of data in php
+difference between htmlspecial char/entity and strip tags?
